@@ -14,7 +14,7 @@ Then to sync up:-
 
 Start the build:-
 
-. build/envsetup.sh
+  source build/envsetup.sh
 
   lunch prototype_device_codename-userdebug
   
