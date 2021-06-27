@@ -15,5 +15,7 @@ Then to sync up:-
 Start the build:-
 
 . build/envsetup.sh
-  lunch superior_<devicecodename>-userdebug
+
+  lunch prototype_device_codename-userdebug
+  
   mka bacon -jx
