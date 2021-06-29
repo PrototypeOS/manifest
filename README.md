@@ -1,3 +1,4 @@
+![Photo_1625007031451](https://user-images.githubusercontent.com/68080176/123878485-a848d300-d92e-11eb-96fc-1d11a246ca95.jpg)
 
 PrototypeOS is the first of it's kind, Simple. Easy. Reliable. We aim to provide smooth easy going experience with a bit of customization.
 
