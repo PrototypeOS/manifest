@@ -18,6 +18,6 @@ Start the build:-
 
   $ . build/envsetup.sh
 
-  $ lunch prototype_<device_codename>-<userdebug>
+  $ lunch prototype_<device_codename>-userdebug
   
   $ mka bacon -jx
