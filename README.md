@@ -8,16 +8,23 @@ To get started with the building process, you'll need to get familiar with Git a
 
 To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/PrototypeOS/manifest.git -b ranch
+repo init -u git://github.com/PrototypeOS/manifest.git -b ranch;
 
-Then to sync up:-
+You can alternatively use this command to save some space and time :
 
-    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo init --depth=1 -u git://github.com/PrototypeOS/manifest.git -b ranch;
 
+Then to sync up:
+
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags;
+
+You can just use repo sync or above command, but this will save you from lot of terminal spam, data and time.
+
+repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all);
 Start the build:-
 
   $ . build/envsetup.sh
 
-  $ lunch prototype_<device_codename>-userdebug
+  $  lunch prototype_<device_codename>-userdebug
   
-  $ mka bacon -jx
+  $  mka prototype
