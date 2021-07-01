@@ -10,7 +10,7 @@ Then to sync up:-
 
     repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
-Start the build:-
+https://github.com/PrototypeOS/manifest#start-the-build-
 
   . build/envsetup.sh
   lunch prototype_<devicecodename>-userdebug
