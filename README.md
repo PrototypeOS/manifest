@@ -2,6 +2,8 @@
 PrototypeOS is the first of it's kind: 
 Simple. Easy. Reliable. We aim to provide a smooth easy going experience with a bit of customization.
 
+# Getting Started:
+
 To initialize your local repository, use a command like this:
 
     repo init -u git://github.com/PrototypeOS/manifest.git -b ranch
@@ -21,10 +23,13 @@ You can just use repo sync or above command, but this will save you from lot of 
     repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all);  
     
     
+# Compilation of Prototype:
 
-$  . build/envsetup.sh
 
-$  lunch lighthouse_<device_codename>-<build-type>
-    
-$  mka lighthouse
+ . build/envsetup.sh
+
+ lunch prototype_$device-userdebug
+
+ mka prototype
+
 
