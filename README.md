@@ -8,7 +8,9 @@ To get started with the building process, you'll need to get familiar with Git a
 
 To initialize your local repository, use a command like this:
 
+
 repo init -u git://github.com/PrototypeOS/manifest.git -b ranch;
+
 
 You can alternatively use this command to save some space and time :
 
