@@ -6,8 +6,7 @@ Simple. Easy. Reliable. We aim to provide a smooth easy going experience with a 
 
 To get started with the building process, you'll need to get familiar with Git and Repo.
 
-To initialize your local repository, use a command like this:
-
+https://github.com/PrototypeOS/manifest#to-initialize-your-local-repository-use-this-command
 
 repo init -u git://github.com/PrototypeOS/manifest.git -b ranch;
 
