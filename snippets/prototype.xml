@@ -6,7 +6,7 @@
   
   <remote  name="prototype"
            fetch="https://github.com/PrototypeOS"
-           revision="refs/heads/master" />
+           revision="master" />
  
   
   
