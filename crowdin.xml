@@ -11,6 +11,6 @@
            sync-c="true"/>
 
   <project path="crowdin" name="crowdin" revision="ranch" />
-  <project path="manifest" name="manifest" />
+  <project path="manifest" name="manifest" remote= "prototype" />
 
 </manifest> 
