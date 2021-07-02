@@ -809,6 +809,9 @@
   
     <!-- Some Prototype repos -->
     <include name="snippets/prototype.xml" />
+  
+    <!-- Some Remove repos -->
+    <include name="snippets/remove.xml" />
 
-   
+
 </manifest>
