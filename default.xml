@@ -831,9 +831,6 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 
-    <!-- Remove unused AOSP repos -->
-    <include name="snippets/remove.xml" />
-  
     <!-- Some Lineage repos -->
     <include name="snippets/los.xml" />
   
