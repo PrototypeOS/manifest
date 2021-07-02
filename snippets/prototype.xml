@@ -9,7 +9,8 @@
            revision="refs/heads/master" />
  
   
-  
+  <!-- Narcisism -->
+  <project path="manifest" name="manifest" remote="prototype"/>
   
   <!-- Device repos -->
   <project path="device/prototype/sepolicy" name="device_prototype_sepolicy" remote="prototype" />
