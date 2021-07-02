@@ -19,7 +19,6 @@
   
   <!-- Vendor -->
   <project path="vendor/prototype" name="vendor_prototype" remote="prototype" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="lighthouse-gitlab" />
 
   
   </manifest>
