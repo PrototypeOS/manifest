@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Repos tracked from Styx -->
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/soong" />
-
   <!-- Useless repos -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -76,18 +72,5 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/av"/>
-  <remove-project name="platform/frameworks/native"/>
-  <remove-project name="platform/hardware/libhardware"/>
-  <remove-project name="platform/hardware/interfaces"/>
-  <remove-project name="platform/build/blueprint"/>
-  <remove-project name="platform/bionic"/>
-  <remove-project name="platform/external/tinycompress"/>
-  <remove-project name="platform/external/selinux"/>
-  <remove-project name="platform/external/arm-optimized-routines"/>
-  <remove-project name="platform/packages/apps/WallpaperPicker2"/>
-  <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/external/sqlite" />
 
 </manifest>
