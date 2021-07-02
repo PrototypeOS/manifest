@@ -64,6 +64,14 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/gptfdisk" />
+  
+  <!-- Hardware repos -->
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
