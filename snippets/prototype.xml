@@ -24,6 +24,11 @@
            fetch="https://gitlab.pixelexperience.org/android"
            revision="eleven" />
   
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          review="gerrit.superioros.org"
+          revision="refs/heads/eleven" />
+  
   
   <!-- Device repos -->
   <project path="device/prototype/sepolicy" name="device_prototype_sepolicy" remote="prototype" />
@@ -35,6 +40,16 @@
   <project path="packages/apps/Lawnchair" name="packages_apps_Lawnchair" remote="xtended" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="xtended" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aosip" />
+  
+  <!-- System Repos -->
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="superior" />
+  <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/netd" name="android_system_netd" remote="superior" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
+  <project path="system/security" name="android_system_security" remote="superior" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="superior" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="superior" />
+  <project path="system/vold" name="android_system_vold" remote="superior" />
   
   <!-- Vendor -->
   <project path="vendor/prototype" name="vendor_prototype" remote="prototype" />
