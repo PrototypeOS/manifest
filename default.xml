@@ -810,6 +810,5 @@
     <!-- Some Prototype repos -->
     <include name="snippets/prototype.xml" />
 
-    <include name="snippets/remove.xml"/>
-
+   
 </manifest>
