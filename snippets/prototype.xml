@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="xtended"
+           fetch="https://github.com/Project-Xtended"
+           revision="refs/heads/xr" />
+  
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/eleven" />
+  
+  <remote  name="prototype"
+           fetch="https://github.com/PrototypeOS"
+           revision="refs/heads/ranch" />
+  
+  
+  
+  
+  
+  <!-- Device repos -->
+  <project path="device/prototype/sepolicy" name="device_prototype_sepolicy" remote="prototype" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="prototype" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="prototype" />
+  
+  
+  
+  <!-- Packages repos -->
+  <project path="packages/apps/Lawnchair" name="packages_apps_Lawnchair" remote="xtended" />
+  <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="xtended" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aosip" />
+  
+  </manifest>
