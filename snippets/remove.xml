@@ -60,6 +60,10 @@
   
   <!-- external repos -->
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/gptfdisk" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
