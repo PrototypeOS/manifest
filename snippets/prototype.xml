@@ -15,7 +15,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="prototype" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="prototype" />
  
-  project path="manifest" name="platform_manifest" remote="prototype" />
+  <project path="manifest" name="platform_manifest" remote="prototype" />
 
   
   <!-- Vendor -->
