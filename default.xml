@@ -837,5 +837,8 @@
   
     <!-- Some Lineage repos -->
     <include name="snippets/los.xml" />
-
+  
+    <!-- Some Prototype repos -->
+    <include name="snippets/prototype.xml" />
+  
 </manifest>
