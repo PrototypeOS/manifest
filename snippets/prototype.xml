@@ -14,7 +14,7 @@
   
   <remote  name="prototype"
            fetch="https://github.com/PrototypeOS"
-           revision="refs/heads/ranch" />
+           revision="refs/heads/master" />
   
   <remote  name="lighthouse-gitlab"
            fetch="https://gitlab.com/Stealth1226"
