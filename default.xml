@@ -776,5 +776,10 @@
 
   <include name="snippets/los.xml" />
 
+  <include name="snippets/prototype.xml" />
+
+
+
+
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
