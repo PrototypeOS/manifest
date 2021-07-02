@@ -16,8 +16,9 @@
            fetch="https://github.com/PrototypeOS"
            revision="refs/heads/ranch" />
   
-  
-  
+  <remote  name="lighthouse-gitlab"
+           fetch="https://gitlab.com/Stealth1226"
+           revision="eleven" />
   
   
   <!-- Device repos -->
@@ -25,11 +26,14 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="prototype" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="prototype" />
   
-  
-  
   <!-- Packages repos -->
   <project path="packages/apps/Lawnchair" name="packages_apps_Lawnchair" remote="xtended" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="xtended" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aosip" />
+  
+  <!-- Vendor -->
+  <project path="vendor/prototype" name="vendor_prototype" remote="prototype" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="lighthouse-gitlab" />
+
   
   </manifest>
