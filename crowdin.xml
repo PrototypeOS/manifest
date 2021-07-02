@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="prototype"
+          fetch="https://github.com/PrototypeOS"
+          revision="refs/heads/ranch" />
+
+  <default remote="prototype"
+           sync-j="4"
+           sync-f="true"
+           sync-c="true"/>
+
+  <project path="crowdin" name="crowdin" revision="ranch" />
+  <project path="manifest" name="manifest" />
+
+</manifest> 
