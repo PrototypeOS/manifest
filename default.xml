@@ -803,6 +803,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+    <!-- Some Remove repos -->
+    <include name="snippets/remove.xml" />
 
     <!-- Some Lineage repos -->
     <include name="snippets/los.xml" />
@@ -810,8 +812,6 @@
     <!-- Some Prototype repos -->
     <include name="snippets/prototype.xml" />
   
-    <!-- Some Remove repos -->
-    <include name="snippets/remove.xml" />
 
 
 </manifest>
