@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- 
+
   <remote  name="github"
-           fetch="https://github.com/" />
-
-
-  <remote  name="prototype"
-           fetch="https://github.com/PrototypeOS"
-           revision="ranch"
+           fetch="https://github.com" />
 
   <remote  name="xtended"
            fetch="https://github.com/Project-Xtended"
@@ -16,7 +11,10 @@
   <remote  name="aosip"
            fetch="https://github.com/AOSiP"
            revision="refs/heads/eleven" />
- 
+  
+  <remote  name="prototype"
+           fetch="https://github.com/PrototypeOS"
+           revision="refs/heads/ranch" />
   
   <remote  name="lighthouse-gitlab"
            fetch="https://gitlab.com/Stealth1226"
@@ -32,15 +30,15 @@
           revision="refs/heads/eleven" />
   
   
+  
   <!-- Device repos -->
   <project path="device/prototype/sepolicy" name="android_device_prototype_sepolicy" remote="prototype" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="prototype" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="prototype" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="prototype" />
+   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="prototype" />
  
   <project path="manifest" name="manifest" remote="prototype" />
   
- 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" remote="superior" />
