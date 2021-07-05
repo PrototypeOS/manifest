@@ -2,13 +2,12 @@
 <manifest>
  
   <remote  name="github"
-          fetch="https://github.com/" />
-
+           fetch="https://github.com/" />
 
 
   <remote  name="prototype"
            fetch="https://github.com/PrototypeOS"
-           revision="refs/heads/master" />
+           revision="master" />
   
   <!-- Device repos -->
   <project path="device/prototype/sepolicy" name="device_prototype_sepolicy" remote="prototype" />
