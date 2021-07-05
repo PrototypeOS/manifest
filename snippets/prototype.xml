@@ -7,7 +7,7 @@
 
   <remote  name="prototype"
            fetch="https://github.com/PrototypeOS"
-           revision="master" />
+           revision="ranch" />
   
   <!-- Device repos -->
   <project path="device/prototype/sepolicy" name="device_prototype_sepolicy" remote="prototype" />
