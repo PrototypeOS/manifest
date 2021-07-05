@@ -87,7 +87,6 @@
   <remove-project name="platform/system/netd"/>
   <remove-project name="platform/system/update_engine"/>
   <remove-project name="platform/packages/apps/Bluetooth"/>
-  <remove-project name="platform/packages/apps/Dialer"/>
   <remove-project name="platform/packages/services/Telecomm"/>
   <remove-project name="platform/external/tinycompress"/>
   <remove-project name="platform/external/e2fsprogs"/>
@@ -118,7 +117,6 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
-  <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
