@@ -7,7 +7,30 @@
 
   <remote  name="prototype"
            fetch="https://github.com/PrototypeOS"
-           revision="ranch" />
+           revision="ranch" /
+
+  <remote  name="xtended"
+           fetch="https://github.com/Project-Xtended"
+           revision="refs/heads/xr" />
+  
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/eleven" />
+ 
+  
+  <remote  name="lighthouse-gitlab"
+           fetch="https://gitlab.com/Stealth1226"
+           revision="eleven" />
+  
+  <remote  name="pixel-gitlab"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="eleven" />
+  
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          review="gerrit.superioros.org"
+          revision="refs/heads/eleven" />
+  
   
   <!-- Device repos -->
   <project path="device/prototype/sepolicy" name="android_device_prototype_sepolicy" remote="prototype" />
@@ -16,10 +39,45 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="prototype" />
  
   <project path="manifest" name="manifest" remote="prototype" />
-
+  
+ 
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="superior" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="superior" />
+  <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="eleven" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/Lawnchair" name="packages_apps_Lawnchair" remote="xtended" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="superior" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PermissionController" remote="superior" />
+  <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="xtended" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="superior" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
+  <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="superior" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="aosip" />
+  <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="superior" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="superior" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="superior" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="superior" />
+  
+  <!-- System Repos -->
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="superior" />
+  <project path="system/core" name="android_system_core" remote="superior" />
+  <project path="system/netd" name="android_system_netd" remote="superior" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="superior" />
+  <project path="system/security" name="android_system_security" remote="superior" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="superior" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="superior" />
+  <project path="system/vold" name="android_system_vold" remote="superior" />
   
   <!-- Vendor -->
   <project path="vendor/prototype" name="vendor_prototype" remote="prototype" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="lighthouse-gitlab" />
 
   
   </manifest>
