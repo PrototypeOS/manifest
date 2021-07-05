@@ -96,6 +96,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/external/gptfdisk" />
   
   <!-- packages -->
