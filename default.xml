@@ -5,8 +5,8 @@
            fetch=".."
            review="review.lineageos.org" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+
+
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
