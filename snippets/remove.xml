@@ -85,7 +85,7 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   
-  <remove-project name="external/e2fsprogs" />
+  <remove-project name="platform/external/e2fsprogs" />
   
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
