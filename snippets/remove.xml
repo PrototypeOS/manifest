@@ -86,6 +86,7 @@
   <remove-project name="platform/system/vold" />
   
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/libcxx" />
   
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
