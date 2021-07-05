@@ -7,7 +7,7 @@
 
   <remote  name="prototype"
            fetch="https://github.com/PrototypeOS"
-           revision="ranch" /
+           revision="ranch"
 
   <remote  name="xtended"
            fetch="https://github.com/Project-Xtended"
