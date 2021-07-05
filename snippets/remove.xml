@@ -94,14 +94,33 @@
   <remove-project name="platform/external/selinux"/>
   <remove-project name="platform/external/libcxx"/>
   <remove-project name="platform/external/arm-optimized-routines"/>
-  <remove-project name="platform/packages/apps/Settings"/>
-  <remove-project name="platform/packages/apps/SettingsIntelligence"/>
-  <remove-project name="platform/packages/apps/Launcher3"/>
-  <remove-project name="platform/packages/apps/ThemePicker"/>
-  <remove-project name="platform/packages/apps/WallpaperPicker2"/>
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/external/gptfdisk" />
+  
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/DevCamera" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/SampleLocationAttribution" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
 
 </manifest>
