@@ -86,6 +86,7 @@
   <remove-project name="platform/system/vold" />
   
   <!-- packages -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Calendar" />
