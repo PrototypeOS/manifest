@@ -74,30 +74,16 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/av"/>
-  <remove-project name="platform/frameworks/native"/>
-  <remove-project name="platform/hardware/libhardware"/>
-  <remove-project name="platform/hardware/interfaces"/>
-  <remove-project name="platform/build/blueprint"/>
-  <remove-project name="platform/bionic"/>
-  <remove-project name="platform/system/core"/>
-  <remove-project name="platform/system/vold"/>
-  <remove-project name="platform/system/bt"/>
-  <remove-project name="platform/system/netd"/>
-  <remove-project name="platform/system/update_engine"/>
-  <remove-project name="platform/packages/apps/Bluetooth"/>
-  <remove-project name="platform/packages/services/Telecomm"/>
-  <remove-project name="platform/external/tinycompress"/>
-  <remove-project name="platform/external/e2fsprogs"/>
-  <remove-project name="platform/external/selinux"/>
-  <remove-project name="platform/external/libcxx"/>
-  <remove-project name="platform/external/arm-optimized-routines"/>
-  <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/external/sqlite" />
-  <remove-project name="platform/system/sepolicy" />
+  <!-- System repos -->
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
-  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/mkbootimg" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
   
   <!-- packages -->
   <remove-project name="platform/packages/apps/Browser2" />
