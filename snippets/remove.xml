@@ -52,5 +52,4 @@
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
 
-
-    </manifest>
+</manifest>
