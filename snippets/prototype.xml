@@ -20,10 +20,6 @@
            fetch="https://gitlab.com/Stealth1226"
            revision="eleven" />
   
-  <remote  name="lighthouse"
-           fetch="https://github.com/lighthouse-os"
-           revision="raft" />
-  
   <remote  name="pixel-gitlab"
            fetch="https://gitlab.pixelexperience.org/android"
            revision="eleven" />
