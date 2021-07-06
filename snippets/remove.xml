@@ -19,7 +19,7 @@
   <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
-  <remove-project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
+  <remove-project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <remove-project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <remove-project name="device/google/vrservices" />
 
