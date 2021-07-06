@@ -64,9 +64,13 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
   
-  <!-- Repos tracked from Styx -->
+  <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/blueprint"/>
+  <remove-project name="platform/bionic"/>
+  <remove-project name="platform/system/core"/>
+  <remove-project name="platform/bootable/recovery" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
