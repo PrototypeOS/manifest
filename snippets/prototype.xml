@@ -39,6 +39,9 @@
  
   <project path="manifest" name="manifest" remote="prototype" />
   
+  <project path="bionic" name="android_bionic" remote="superior" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
+
   <!-- Build Repos -->
   <project path="build/make" name="android_build" groups="pdk" remote="superior" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -48,6 +51,12 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="superior" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="superior" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
   <!-- Packages -->
