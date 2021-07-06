@@ -735,7 +735,6 @@
 
 
   <!-- LighthouseOS -->
-  <include name="snippets/remove.xml"/>
   <include name="snippets/prototype.xml"/>
   <include name="snippets/los.xml"/>
 
