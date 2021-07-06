@@ -45,6 +45,7 @@
   <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller">
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
