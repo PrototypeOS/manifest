@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<manifest> 
 
-<!-- Useless repos -->
+  <!-- Useless repos -->
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
@@ -50,4 +50,6 @@
   <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+
 </manifest>
+
