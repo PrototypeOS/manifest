@@ -20,6 +20,10 @@
            fetch="https://gitlab.com/Stealth1226"
            revision="eleven" />
   
+  <remote  name="lighthouse"
+           fetch="https://github.com/lighthouse-os"
+           revision="raft" />
+  
   <remote  name="pixel-gitlab"
            fetch="https://gitlab.pixelexperience.org/android"
            revision="eleven" />
@@ -38,12 +42,9 @@
    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="prototype" />
  
   <project path="manifest" name="manifest" remote="prototype" />
-  
-  <project path="bionic" name="android_bionic" remote="superior" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
 
-  <!-- Build Repos -->
-  <project path="build/make" name="android_build" groups="pdk" remote="superior" >
+  <!-- Build repositories -->
+  <project path="build/make" name="build" remote="lighthouse" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -52,12 +53,13 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-
-  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="superior" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="superior" >
+  <project path="build/soong" name="build_soong" remote="lighthouse" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bionic" name="bionic" remote="lighthouse"/>
+  <project path="build/blueprint" name="build_blueprint" remote="lighthouse"/>
+  <project path="bootable/recovery" name="bootable_recovery" remote="lighthouse"/>
   
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="superior" />
