@@ -94,6 +94,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/tools/extract-utils" />
   
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
