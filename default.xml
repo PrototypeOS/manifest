@@ -775,7 +775,6 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp"
 
 
-  <!-- PrototypeOS -->
   <include name="snippets/los.xml"/>
   
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
