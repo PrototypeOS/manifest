@@ -5,6 +5,28 @@
            fetch="https://github.com/PrototypeOS"
            revision="refs/heads/ranch" />
   
+  <remote  name="superior"
+           fetch="https://github.com/SuperiorOS/"
+           review="gerrit.superioros.org"
+           revision="refs/heads/eleven" />
+  
+  <!-- Build Repos -->
+  <project path="build/make" name="android_build" groups="pdk" remote="superior" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="superior" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="superior" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
   
   <!-- Device repos -->
   <project path="device/prototype/sepolicy" name="android_device_prototype_sepolicy" remote="prototype" />
