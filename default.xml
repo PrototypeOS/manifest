@@ -774,6 +774,6 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Custom repos -->
-  
+  <include name="snippets/los.xml" />
 
 </manifest>
