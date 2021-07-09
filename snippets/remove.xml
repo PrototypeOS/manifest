@@ -13,4 +13,6 @@
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/ril" />
   
+  <remove-project name="platform/packages/apps/Nfc" />
+  
   </manifest>
