@@ -776,5 +776,6 @@
   <!-- Custom repos -->
  <include name="snippets/remove.xml" />
 <include name="snippets/los.xml" /> 
-
+<include name="snippets/prototype.xml" /> 
+	
 </manifest>
