@@ -5,12 +5,12 @@
            fetch="https://github.com/PrototypeOS"
            revision="refs/heads/ranch" />
 
-    <remote  name="github"
+   <remote  name="github"
            fetch="https://github.com/" />
   
-    <remote  name="aex"
-           fetch="https://github.com/AospExtended"
-           revision="refs/heads/11.x" />
+   <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/eleven" />
 
   
   <!-- Device repos -->
@@ -21,10 +21,9 @@
  
   <project path="manifest" name="manifest" remote="prototype" />
   
-  <project path="art" name="platform_art" groups="pdk" remote="aex" />
-  <project path="bionic" name="platform_bionic" groups="pdk" remote="aex" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aex" />
-  <project path="build/make" name="platform_build" groups="pdk" remote="aex" >
+  <!-- Build -->
+  <project path="build/blueprint" name="platform_build_blueprint" remote="aosip" />
+  <project path="build/make" name="platform_build" remote="aosip" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -33,7 +32,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="aex" >
+  <project path="build/soong" name="platform_build_soong" remote="aosip" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
