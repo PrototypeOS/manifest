@@ -9,6 +9,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av"/>
   <remove-project name="platform/frameworks/native"/>
+ 
   
   <!-- external repos -->
   <remove-project name="platform/external/tinycompress" />
@@ -17,6 +18,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/e2fsprogs"/>
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/arm-optimized-routines"/>
   
   
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
