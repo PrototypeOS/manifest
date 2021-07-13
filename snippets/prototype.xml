@@ -8,15 +8,9 @@
    <remote  name="github"
            fetch="https://github.com/" />
   
-   <remote name="superior"
-          fetch="https://github.com/SuperiorOS/"
-          review="gerrit.superioros.org"
-          revision="refs/heads/eleven" />
-  
-  <remote  name="arrow"
-           fetch="https://github.com/ArrowOS"
-           review="https://review.arrowos.net/"
-           revision="refs/heads/arrow-11.0" />
+   <remote  name="lighthouse"
+           fetch="https://github.com/lighthouse-os"
+           revision="raft" />
 
   
   <!-- Device repos -->
@@ -27,12 +21,8 @@
  
   <project path="manifest" name="manifest" remote="prototype" />
   
-  <!-- Build -->
-  <project path="bionic" name="android_bionic" remote="superior" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
-
-  <!-- Build Repos -->
-  <project path="build/make" name="android_build" remote="arrow" >
+  <!-- Build repositories -->
+  <project path="build/make" name="build" remote="lighthouse" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -41,11 +31,13 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="arrow" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="arrow" >
+  <project path="build/soong" name="build_soong" remote="lighthouse" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bionic" name="bionic" remote="lighthouse"/>
+  <project path="build/blueprint" name="build_blueprint" remote="lighthouse"/>
+  <project path="bootable/recovery" name="bootable_recovery" remote="lighthouse"/>
   
   <!-- Vendor -->
   <project path="vendor/prototype" name="vendor_prototype" remote="prototype" />
