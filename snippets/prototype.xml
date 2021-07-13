@@ -62,6 +62,7 @@
   
   <project path="hardware/lighthouse/interfaces" name="hardware_lighthouse_interfaces" remote="lighthouse"/>
   
+    <project path="system/netd" name="system_netd" remote="lighthouse"/>  
   
   <!-- Vendor -->
   <project path="vendor/prototype" name="vendor_prototype" remote="prototype" />
