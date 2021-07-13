@@ -39,6 +39,16 @@
   <project path="build/blueprint" name="build_blueprint" remote="lighthouse"/>
   <project path="bootable/recovery" name="bootable_recovery" remote="lighthouse"/>
   
+  
+   <!-- System -->
+  <project path="system/core" name="system_core" remote="lighthouse"/>
+  <project path="system/vold" name="system_vold" remote="lighthouse"/>  
+  <project path="system/sepolicy" name="system_sepolicy" remote="lighthouse"/>  
+  <project path="system/bt" name="system_bt" remote="lighthouse"/>  
+  <project path="system/netd" name="system_netd" remote="lighthouse"/>  
+  <project path="system/update_engine" name="system_update_engine" remote="lighthouse"/>
+
+  
   <!-- Vendor -->
   <project path="vendor/prototype" name="vendor_prototype" remote="prototype" />
   
