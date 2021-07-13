@@ -62,6 +62,7 @@
   <!-- external repos -->
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/e2fsprogs" />
   
   
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
