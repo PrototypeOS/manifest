@@ -21,7 +21,6 @@
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/arm-optimized-routines"/>
   
-  <remove-project name="platform/frameworks/native"/>
   <remove-project name="platform/hardware/libhardware"/>
   <remove-project name="platform/hardware/interfaces"/>
   <remove-project name="platform/system/core"/>
