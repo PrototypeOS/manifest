@@ -60,6 +60,9 @@
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="lighthouse" />
 
   
+  <project path="hardware/lighthouse/interfaces" name="hardware_lighthouse_interfaces" remote="lighthouse"/>
+  
+  
   <!-- Vendor -->
   <project path="vendor/prototype" name="vendor_prototype" remote="prototype" />
   <project path="vendor/gapps" name="vendor_gapps" remote="lighthouse-gitlab" />
