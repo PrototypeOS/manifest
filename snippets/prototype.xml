@@ -3,7 +3,7 @@
   
   <remote  name="prototype"
            fetch="https://github.com/PrototypeOS"
-           revision="refs/heads/master" />
+           revision="refs/heads/ranch" />
 
    <remote  name="github"
            fetch="https://github.com/" />
