@@ -16,6 +16,11 @@
            fetch="https://github.com/TitaniumOS"
            revision="refs/heads/eleven" />
   
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          review="gerrit.superioros.org"
+          revision="refs/heads/eleven" />
+  
   <!-- Build repositories -->
   <project path="build/soong" name="build_soong" remote="lighthouse" >
     <linkfile src="root.bp" dest="Android.bp" />
