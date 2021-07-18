@@ -12,6 +12,10 @@
            fetch="https://github.com/lighthouse-os"
            revision="raft" />
   
+   <remote  name="tos"
+           fetch="https://github.com/TitaniumOS"
+           revision="refs/heads/eleven" />
+  
   <!-- Build repositories -->
   <project path="build/soong" name="build_soong" remote="lighthouse" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -26,6 +30,11 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="prototype" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="prototype" />
    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="prototype" />
+  
+  <!-- Prebuilts -->
+  <project path="prebuilts/apps/Lawnchair" name="prebuilts_apps_Lawnchair" clone-depth="1" remote="lighthouse" />
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" clone-depth="1" remote="tos" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
  
   <project path="manifest" name="manifest" remote="prototype" />
   
