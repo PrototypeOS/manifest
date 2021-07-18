@@ -16,18 +16,6 @@
            fetch="https://github.com/TitaniumOS"
            revision="refs/heads/eleven" />
   
-  <remote name="superior"
-          fetch="https://github.com/SuperiorOS/"
-          review="gerrit.superioros.org"
-          revision="refs/heads/eleven" />
-  
-  <!-- Build repositories -->
-  <project path="build/soong" name="build_soong" remote="lighthouse" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="build/blueprint" name="build_blueprint" remote="lighthouse"/>
-  <project path="bootable/recovery" name="bootable_recovery" remote="lighthouse"/>
   
   <!-- Device repos -->
   <project path="device/prototype/sepolicy" name="android_device_prototype_sepolicy" remote="prototype" />
