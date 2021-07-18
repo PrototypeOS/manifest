@@ -26,7 +26,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bionic" name="bionic" remote="lighthouse"/>
   <project path="build/blueprint" name="build_blueprint" remote="lighthouse"/>
   <project path="bootable/recovery" name="bootable_recovery" remote="lighthouse"/>
   
