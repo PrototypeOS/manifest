@@ -16,6 +16,11 @@
            fetch="https://github.com/TitaniumOS"
            revision="refs/heads/eleven" />
 
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          review="gerrit.superioros.org"
+          revision="refs/heads/eleven" />
+
 
   <project path="bionic" name="android_bionic" remote="superior" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
