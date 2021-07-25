@@ -66,15 +66,6 @@
   <remove-project name="platform/bionic"/>
   <remove-project name="platform/bootable/recovery" />
   
-  <!-- external repos -->
-  <remove-project name="platform/external/gptfdisk" />
-  <remove-project name="platform/external/libcxx" />
-  <remove-project name="platform/external/e2fsprogs" />
-
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/system/bt" />
-  <remove-project name="platform/packages/apps/Settings" />
   
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
