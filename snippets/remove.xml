@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-
-<!-- Repos tracked from Styx -->
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/build/blueprint"/>
-  <remove-project name="platform/bionic"/>
-  <remove-project name="platform/bootable/recovery" />
   
   
   <!-- Prebuilts -->
