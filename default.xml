@@ -785,5 +785,6 @@
 
   <!-- Custom repos -->
 <include name="snippets/los.xml" /> 
+<include name="snippets/prototype.xml" /> 
 	
 </manifest>
