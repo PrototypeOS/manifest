@@ -837,6 +837,6 @@
   <!-- Custom repos -->
   <include name="snippets/remove.xml" />
   <include name="snippets/prototype.xml" />
-  <include name="snippets/lineage.xml" />
+  <include name="snippets/los.xml" />
 
 </manifest>
