@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <remote  name="prototype"
            fetch="https://github.com/PrototypeOS"
            revision="refs/heads/ranch" />
