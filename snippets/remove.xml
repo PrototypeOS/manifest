@@ -2,7 +2,8 @@
 <manifest>
 
   <remove-project name="device/amlogic/yukawa" />
-  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/
+/yukawa-kernel" />
   <remove-project name="device/generic/opengl-transport" />
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
@@ -44,4 +45,8 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/development" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 </manifest>
