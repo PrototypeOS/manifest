@@ -65,6 +65,7 @@
   <remove-project name="platform/system/netd"/>
   <remove-project name="platform/system/update_engine"/>
   <remove-project name="platform/packages/apps/Bluetooth"/>
+  <remove-project name="platform/packages/apps/Settings"/>
   
   
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
