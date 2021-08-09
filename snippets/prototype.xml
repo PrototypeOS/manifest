@@ -38,7 +38,7 @@
   <project path="bionic" name="bionic" remote="lighthouse"/>
   <project path="art" name="art" remote="lighthouse"/>
   <project path="build/blueprint" name="build_blueprint" remote="lighthouse"/>
-  <project path="bootable/recovery" name="bootable_recovery" remote="lighthouse"/
+  <project path="bootable/recovery" name="bootable_recovery" remote="lighthouse"/>
   
   <!-- Device repos -->
   <project path="device/prototype/sepolicy" name="android_device_prototype_sepolicy" remote="prototype" />
