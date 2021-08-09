@@ -28,6 +28,8 @@
   <remove-project name="device/google/sunfish-sepolicy"/>
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
