@@ -45,4 +45,4 @@
 
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
   
-</manifest>
+   </manifest>
