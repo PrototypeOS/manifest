@@ -11,6 +11,8 @@
 
   <include name="omni-extra.xml" />
 
+  <include name="los.xml" />
+
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="omnirom" revision="android-11" />
 
