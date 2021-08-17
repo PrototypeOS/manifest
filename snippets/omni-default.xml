@@ -9,9 +9,6 @@
   <!-- Include forked CAF -->
   <include name="omni-caf.xml" />
 
-  <!-- include registered repos -->
-  <include name="omni-private.xml" />
-
   <include name="omni-extra.xml" />
 
   <!-- OmniROM Projects -->
