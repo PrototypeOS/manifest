@@ -5,6 +5,11 @@
            fetch="https://github.com/LineageOS"
           review="https://review.lineageos.org/"
           revision="refs/heads/lineage-18.1" />
+ 
+ <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          review="gerrit.superioros.org"
+          revision="refs/heads/eleven" />
 
  <!-- Audio HALS -->
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8916" remote="lineage"/>
