@@ -4,14 +4,14 @@
   <include name="snippets/remove.xml" />
 
   <!-- Include forked AOSP -->
-  <include name="omni-aosp.xml" />
+  <include name="snippets/omni-aosp.xml" />
 
   <!-- Include forked CAF -->
-  <include name="omni-caf.xml" />
+  <include name="snippets/omni-caf.xml" />
 
-  <include name="omni-extra.xml" />
+  <include name="snippets/omni-extra.xml" />
 
-  <include name="los.xml" />
+  <include name="snippets/los.xml" />
 
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="omnirom" revision="android-11" />
