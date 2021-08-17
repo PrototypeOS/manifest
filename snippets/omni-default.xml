@@ -8,8 +8,10 @@
 
   <!-- Include forked CAF -->
   <include name="snippets/omni-caf.xml" />
-
+  
+  <!-- include registered repos -->
   <include name="snippets/omni-extra.xml" />
+  <include name="omni-private.xml" />
 
   <include name="snippets/los.xml" />
 
