@@ -20,6 +20,10 @@
            fetch="https://github.com/TitaniumOS"
            revision="refs/heads/eleven" />
 
+  <remote name="superior"
+          fetch="https://github.com/SuperiorOS/"
+          review="gerrit.superioros.org"
+          revision="refs/heads/eleven" />
   
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
